@@ -7,20 +7,79 @@
 </head>
 <body>
     <h1>¡Mini Juegos para todos!</h1>
+    <button>Datos</button>
+    <button>Juegos</button>
+    <button>Administrador</button>
     <h2>Datos</h2>
     <h2>Alta de jugadores</h2>
+    <form action="">
+        Nombre:<input type="text">
+        Edad:<input type="number">
+        <button>Agregar</button>
+    </form>
     <h2>Información</h2>
-    <h3>Nombre Jugador Edad Comentario</h3>
+    <form action="">
+        <input type="radio" checked>Comentarios ordenados por nombre creciente 
+        <input type="radio">Comentarios ordenados por edad creciente
+        <br>Destacar: (ingrese palabra a destacar en los comentarios) <input type="text">
+    </form>
+    <table>
+        <tr>
+            <th>Nombre Jugador</th>
+            <th>Edad</th>
+            <th>Comentario</th>
+        </tr>
+    </table>
+    <p>Jugador/es con mayor cantidad de comentarios (ordenados por nombre):</p>
+    <ul>
+        <li>Sin datos</li>
+    </ul>
+    <p>Jugador/es que nunca jugaron: (ordenados por nombre)</p>
+    <ul>
+        <li>Sin datos</li>
+    </ul>
     <h2>¡Juegos!</h2>
     <h2>Configurar</h2>
+    <label for="">Jugador:</label>
+    <select name="" id=""></select>
+    Con sonido<input type="checkbox">
     <h2>¿Cuál es diferente?</h2>
     <h3>Presiona el diferente</h3>
     <h2>Calcula la suma</h2>
     <h3>Suma los dos números</h3>
+    <form action="">
+        <input type="text" name="" id="">
+        <button>Enviar</button>
+    </form>
     <h2>Ingresa tu comentario</h2>
+    <form action="">
+        <textarea name="" id=""></textarea>
+        <button>Enviar comentario</button>
+    </form>
     <h2>Modo Administrador</h2>
-    <h3>Resumen (datos ordenados por nombre de jugador)</h3>
-    <h3>Edición de Comentario (datos ordenados por hora)</h3>
-    
+    <p>Resumen (datos ordenados por nombre de jugador)</p>
+    <table>
+        <tr>
+            <th>Nombre Jugador</th>
+            <th>Edad</th>
+            <th>Diferente: <br>✅</th>
+            <th>Diferente: <br>❌</th>
+            <th>Suma: <br>✅</th>
+            <th>Suma: <br>❌</th>
+            <th>Cantidad de comentarios</th>
+        </tr>
+    </table>
+    <p>Edición de Comentario (datos ordenados por hora)</p>
+    <table>
+        <tr>
+            <th>Nombre Jugador</th>
+            <th>Hora del comentario</th>
+            <th>Comentario</th>
+        </tr>
+    </table>
+    <button>Actualizar Todos los Comentarios</button>
+    <footer>
+        <p>Desarrollado por Lena Lemes (estudiante 358467) y Nahira Chambi (estudiante 366979)</p>
+    </footer>
 </body>
 </html>
