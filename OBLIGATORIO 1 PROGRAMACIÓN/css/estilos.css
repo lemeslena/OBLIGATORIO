@@ -1,0 +1,11 @@
+section{
+    background-color:#126bc4;
+    border-radius: 10px;
+}
+section.menuvista{
+    border-radius: 0px 0px 0px 5px;
+    text-align: center;
+    width: 15%;
+    margin-left: auto;
+    padding: 6px;
+}
