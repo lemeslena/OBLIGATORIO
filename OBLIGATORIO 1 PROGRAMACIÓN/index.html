@@ -11,79 +11,105 @@
     </head>
 <body>
     <h1>¡Mini Juegos para todos!</h1>
-    <button>Datos</button>
-    <button>Juegos</button>
-    <button>Administrador</button>
-    <h2>Datos</h2>
-    <h2>Alta de jugadores</h2>
-    <form action="">
-        Nombre:<input type="text">
-        Edad:<input type="number">
-        <button>Agregar</button>
-    </form>
-    <h2>Información</h2>
-    <form action="">
-        <input type="radio" checked>Comentarios ordenados por nombre creciente 
-        <input type="radio">Comentarios ordenados por edad creciente
-    <p>
-        Destacar: (ingrese palabra a destacar en los comentarios) <input type="text">
-    </p>
-    </form>
-    <table>
-        <tr>
-            <th>Nombre Jugador</th>
-            <th>Edad</th>
-            <th>Comentario</th>
-        </tr>
-    </table>
-    <p>Jugador/es con mayor cantidad de comentarios (ordenados por nombre):</p>
-    <ul>
-        <li>Sin datos</li>
-    </ul>
-    <p>Jugador/es que nunca jugaron: (ordenados por nombre)</p>
-    <ul>
-        <li>Sin datos</li>
-    </ul>
-    <h2>¡Juegos!</h2>
-    <h2>Configurar</h2>
-    <label for="">Jugador:</label>
-    <select name="" id=""></select>
-    Con sonido<input type="checkbox">
-    <h2>¿Cuál es diferente?</h2>
-    <h3>Presiona el diferente</h3>
-    <h2>Calcula la suma</h2>
-    <h3>Suma los dos números</h3>
-    <form action="">
-        <input type="text" name="" id="">
-        <button>Enviar</button>
-    </form>
-    <h2>Ingresa tu comentario</h2>
-    <form action="">
-        <textarea name="" id=""></textarea>
-        <button>Enviar comentario</button>
-    </form>
-    <h2>Modo Administrador</h2>
-    <p>Resumen (datos ordenados por nombre de jugador)</p>
-    <table>
-        <tr>
-            <th>Nombre Jugador</th>
-            <th>Edad</th>
-            <th>Diferente: <p>✅</p></th>
-            <th>Diferente: <p>❌</p></th>
-            <th>Suma: <p>✅</p></th>
-            <th>Suma: <p>❌</p></th>
-            <th>Cantidad de comentarios</th>
-        </tr>
-    </table>
-    <p>Edición de Comentario (datos ordenados por hora)</p>
-    <table>
-        <tr>
-            <th>Nombre Jugador</th>
-            <th>Hora del comentario</th>
-            <th>Comentario</th>
-        </tr>
-    </table>
-    <button>Actualizar Todos los Comentarios</button>
+    <section>
+        <button>Datos</button>
+        <button>Juegos</button>
+        <button>Administrador</button>
+    </section>
+
+    <section>
+        <h2>Datos</h2>
+            <article>
+                <h2>Alta de jugadores</h2>
+                <form action="">
+                Nombre:<input type="text">
+                Edad:<input type="number">
+             <button>Agregar</button>
+             </form>
+             </article>
+            <article>
+                <h2>Información</h2>
+                 <form action="">
+                <input type="radio" checked>Comentarios ordenados por nombre creciente 
+                <input type="radio">Comentarios ordenados por edad creciente
+                <p>
+                  Destacar: (ingrese palabra a destacar en los comentarios) <input type="text">
+                 </p>
+                 </form>
+                <table>
+                    <tr>
+                     <th>Nombre Jugador</th>
+                     <th>Edad</th>
+                     <th>Comentario</th>
+                      </tr>
+                 </table>
+               <p>Jugador/es con mayor cantidad de comentarios (ordenados por nombre):</p>
+             <ul>
+                <li>Sin datos</li>
+             </ul>
+              <p>Jugador/es que nunca jugaron: (ordenados por nombre)</p>
+             <ul>
+                 <li>Sin datos</li>
+             </ul>
+            </article>
+    </section>
+
+    <section>
+        <h2>¡Juegos!</h2>
+        <article>
+            <h2>Configurar</h2>
+            <label for="">Jugador:</label>
+            <select name="" id=""></select>
+              Con sonido<input type="checkbox">
+        </article>    
+        <article>
+            <h2>¿Cuál es diferente?</h2>
+            <h3>Presiona el diferente</h3>
+        </article>
+        <article>
+            <h2>Calcula la suma</h2>
+            <h3>Suma los dos números</h3>
+            <form action="">
+                <input type="text" name="" id="">
+                <button>Enviar</button>
+            </form>
+        </article>
+        <article>
+            <h2>Ingresa tu comentario</h2>
+            <form action="">
+                <textarea name="" id=""></textarea>
+                <button>Enviar comentario</button>
+            </form>
+        </article>
+    </section>
+
+    <section>
+        <h2>Modo Administrador</h2>
+        <article>
+            <p>Resumen (datos ordenados por nombre de jugador)</p>
+            <table>
+            <tr>
+                <th>Nombre Jugador</th>
+                <th>Edad</th>
+                <th>Diferente: <p>✅</p></th>
+                <th>Diferente: <p>❌</p></th>
+                <th>Suma: <p>✅</p></th>
+                <th>Suma: <p>❌</p></th>
+                <th>Cantidad de comentarios</th>
+            </tr>
+            </table>
+            <p>Edición de Comentario (datos ordenados por hora)</p>
+            <table>
+            <tr>
+                <th>Nombre Jugador</th>
+                <th>Hora del comentario</th>
+                <th>Comentario</th>
+            </tr>
+            </table>
+            <button>Actualizar Todos los Comentarios</button>
+        </article>
+    </section>
+
     <footer>
         <p>Desarrollado por Lena Lemes (estudiante 358467) y Nahira Chambi (estudiante 366979)</p>
     </footer>
