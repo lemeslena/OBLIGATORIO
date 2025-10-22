@@ -7,31 +7,37 @@
         <meta name="Autores" content="Lena Lemes y Nahira Chambi">
         <meta name="keywords" content="minijuegos, jugadores, administador, estadísticas, comentarios, partidas">
     <link rel="stylesheet" href="css/estilos.css">
-        <title>Obligatorio</title>
+        <title>Minijuegos</title>
     </head>
 <body>
-    <h1>¡Mini Juegos para todos!</h1>
-    <section class="menuvista">
-        <button class="btnvista">Datos</button>
-        <button class="btnvista">Juegos</button>
-        <button class="btnvista">Administrador</button>
-    </section>
+    <nav class="menuvista">
+        <div class="titulo">
+            <h1>¡Mini Juegos para todos!</h1>
+        </div>
+        <div class="divbtn">
+            <button class="btnvista">Datos</button>
+            <button class="btnvista">Juegos</button>
+            <button class="btnvista">Administrador</button>    
+        </div>
+    </nav>
 
-    <section>
+    <section class="sectiongeneral">
         <h2>Datos</h2>
-            <article>
+            <article class="articlegeneral">
                 <h2>Alta de jugadores</h2>
                 <form action="">
-                Nombre:<input type="text">
-                Edad:<input type="number">
+                Nombre:<input type="text" required>
+                Edad:<input type="number" id="edad" name="edadJug" min="5" max="100" step="1" placeholder="5">
              <button>Agregar</button>
              </form>
              </article>
-            <article>
+            <article class="articlegeneral">
                 <h2>Información</h2>
                  <form action="">
-                <input type="radio" checked>Comentarios ordenados por nombre creciente 
-                <input type="radio">Comentarios ordenados por edad creciente
+                <input type="radio" checked> 
+                <label for="">Comentarios ordenados por nombre creciente</label>
+                <input type="radio">
+                <label for="">Comentarios ordenados por edad creciente</label>
                 <p>
                   Destacar: (ingrese palabra a destacar en los comentarios) <input type="text">
                  </p>
@@ -54,27 +60,27 @@
             </article>
     </section>
 
-    <section>
+    <section class="sectiongeneral">
         <h2>¡Juegos!</h2>
-        <article>
+        <article class="articlegeneral">
             <h2>Configurar</h2>
             <label for="">Jugador:</label>
             <select name="" id=""></select>
               Con sonido<input type="checkbox">
         </article>    
-        <article>
+        <article class="articlegeneral">
             <h2>¿Cuál es diferente?</h2>
-            <h3>Presiona el diferente</h3>
+            <h4>Presiona el diferente</h4>
         </article>
-        <article>
+        <article class="articlegeneral">
             <h2>Calcula la suma</h2>
-            <h3>Suma los dos números</h3>
+            <h4>Suma los dos números</h4>
             <form action="">
                 <input type="text" name="" id="">
                 <button>Enviar</button>
             </form>
         </article>
-        <article>
+        <article class="articlegeneral">
             <h2>Ingresa tu comentario</h2>
             <form action="">
                 <textarea name="" id=""></textarea>
@@ -83,9 +89,9 @@
         </article>
     </section>
 
-    <section>
+    <section class="sectiongeneral">
         <h2>Modo Administrador</h2>
-        <article>
+        <article class="articlegeneral">
             <p>Resumen (datos ordenados por nombre de jugador)</p>
             <table>
             <tr>
@@ -111,7 +117,7 @@
     </section>
 
     <footer>
-        <p>Desarrollado por Lena Lemes (estudiante 358467) y Nahira Chambi (estudiante 366979)</p>
+        <p class="pfooter">Desarrollado por Lena Lemes (estudiante 358467) y Nahira Chambi (estudiante 366979)</p>
     </footer>
 </body>
 </html>
