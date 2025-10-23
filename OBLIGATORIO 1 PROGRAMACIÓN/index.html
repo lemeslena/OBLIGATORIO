@@ -33,20 +33,22 @@
              </article>
             <article class="articlegeneral">
                 <h2>Información</h2>
+                <div>
                  <form action="">
                 <input type="radio" checked> 
                 <label for="">Comentarios ordenados por nombre creciente</label>
                 <input type="radio">
                 <label for="">Comentarios ordenados por edad creciente</label>
-                <p>
-                  Destacar: (ingrese palabra a destacar en los comentarios) <input type="text">
-                 </p>
+                </div>
+                <div class="divdestacar">
+                    Destacar: (ingrese palabra a destacar en los comentarios) <input type="text">
+                </div>
                  </form>
-                <table>
+                <table class="tablaInfo">
                     <tr>
-                     <th>Nombre Jugador</th>
-                     <th>Edad</th>
-                     <th>Comentario</th>
+                     <th class="celdaInfo">Nombre Jugador</th>
+                     <th class="celdaInfo">Edad</th>
+                     <th class="celdaInfo">Comentario</th>
                       </tr>
                  </table>
                <p>Jugador/es con mayor cantidad de comentarios (ordenados por nombre):</p>
@@ -93,23 +95,23 @@
         <h2>Modo Administrador</h2>
         <article class="articlegeneral">
             <p>Resumen (datos ordenados por nombre de jugador)</p>
-            <table>
+            <table class="tablaAdmin">
             <tr>
-                <th>Nombre Jugador</th>
-                <th>Edad</th>
-                <th>Diferente: <p>✅</p></th>
-                <th>Diferente: <p>❌</p></th>
-                <th>Suma: <p>✅</p></th>
-                <th>Suma: <p>❌</p></th>
-                <th>Cantidad de comentarios</th>
+                <th class="celdaAdmin1">Nombre Jugador</th>
+                <th class="celdaAdmin1">Edad</th>
+                <th class="celdaAdmin2">Diferente: <p>✅</p></th>
+                <th class="celdaAdmin2">Diferente: <p>❌</p></th>
+                <th class="celdaAdmin2">Suma: <p>✅</p></th>
+                <th class="celdaAdmin2">Suma: <p>❌</p></th>
+                <th class="celdaAdmin2">Cantidad de comentarios</th>
             </tr>
             </table>
             <p>Edición de Comentario (datos ordenados por hora)</p>
-            <table>
+            <table class="tablaAdmin2">
             <tr>
-                <th>Nombre Jugador</th>
-                <th>Hora del comentario</th>
-                <th>Comentario</th>
+                <th class="celdaAdmin3">Nombre Jugador</th>
+                <th class="celdaAdmin4">Hora del comentario</th>
+                <th class="celdaAdmin5">Comentario</th>
             </tr>
             </table>
             <button>Actualizar Todos los Comentarios</button>
