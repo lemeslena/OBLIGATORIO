@@ -83,15 +83,11 @@ table.tablaAdmin{
 th.celdaAdmin1{
     border: 2px solid black;
     width: 30%;
-    border-top: 4px;
-    border-bottom: 4px;
 }
 
 th.celdaAdmin2{
     border: 1px solid black;
     width: 10%;
-    border-top: 3px;
-    border-bottom: 3px;
 }
 p.celdaEmoji{
     margin: auto;
@@ -107,23 +103,18 @@ table.tablaAdmin2{
 th.celdaAdmin3{
     border: 2px solid black;
     width: 30%;
-    border-top: 4px;
-
 }
 
 th.celdaAdmin4{
     border: 2px solid black;
     width: 27%;
-    border-top: 4px;
-
 }
 
 th.celdaAdmin5{
     border: 2px solid black;
-    width: 50%;
-    border-top: 4px;
- 
+    width: 50%; 
 }
+
 footer{
     margin-top: -15px;
     background-color: #808080;
