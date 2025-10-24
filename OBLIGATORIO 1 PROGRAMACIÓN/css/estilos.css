@@ -76,7 +76,7 @@ th.celdaInfo{
 
 table.tablaAdmin{
     background-color: #808080;
-    border: 4px solid black;
+    border: 2px solid black;
     width: 100%;
 }
 
@@ -86,16 +86,17 @@ th.celdaAdmin1{
 }
 
 th.celdaAdmin2{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 10%;
 }
+
 p.celdaEmoji{
     margin: auto;
 }
 
 table.tablaAdmin2{
     background-color: #808080;
-    border: 4px solid black;
+    border: 2px solid black;
     width: 100%;
     margin-bottom: 15px;
 }
